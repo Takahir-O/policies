@@ -5,7 +5,7 @@ title: KoeKey - Privacy Policy
 
 # KoeKey Privacy Policy
 
-Last updated: 2026-03-23
+Last updated: 2026-03-29
 
 > [日本語版はこちら](privacy-policy-ja.md)
 
@@ -15,9 +15,9 @@ KoeKey is a voice dictation application that converts speech to text. This polic
 
 ## How KoeKey Processes Your Voice
 
-### Local Processing (Whisper)
+### Local Processing (Whisper / sherpa-onnx)
 
-When you use the local Whisper model, **all audio processing happens entirely on your device**. No audio data leaves your device. KoeKey does not collect, transmit, or have access to your voice data in this mode.
+When you use a local speech recognition model (Whisper or sherpa-onnx), **all audio processing happens entirely on your device**. No audio data leaves your device. KoeKey does not collect, transmit, or have access to your voice data in this mode.
 
 ### Cloud Processing (Soniox, Deepgram)
 
@@ -40,6 +40,14 @@ Your transcription history is encrypted with AES-256-GCM and stored locally on y
 ### File Output
 
 When you use features that save transcription results to files (such as voice memos or listening output), these files are stored in plaintext at locations you choose on your device. These files are not encrypted and are not automatically deleted.
+
+### Screenshots
+
+If you enable the optional screenshot feature, KoeKey captures an image of the active window during dictation and saves it to a directory you specify. Screenshots are stored locally and are not transmitted to any server. This feature is disabled by default.
+
+### Clipboard
+
+KoeKey uses the system clipboard to insert transcription results into the active application via paste (Ctrl+V / Cmd+V). By default, the original clipboard contents are restored after insertion. You can change this behavior in settings to keep the transcription text in the clipboard instead.
 
 ### In-App Purchases
 
@@ -72,9 +80,10 @@ These providers process your data under their own privacy policies. KoeKey sends
 
 ### Model Downloads (user-initiated)
 
-When you choose to use local Whisper processing and download a model, KoeKey downloads model files from **Hugging Face** (`huggingface.co`). No personal data is sent, but your IP address is visible to Hugging Face during the download.
+When you choose to use local processing and download a model, KoeKey downloads model files from **Hugging Face** (`huggingface.co`) or **GitHub** (`github.com`). No personal data is sent, but your IP address is visible to the hosting service during the download.
 
 - **Hugging Face**: [Privacy Policy](https://huggingface.co/privacy)
+- **GitHub**: [Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 
 ### Platform Stores
 
