@@ -63,7 +63,7 @@ KoeKey does **not** collect any telemetry, analytics, crash reports, or usage da
 - API keys are stored in OS-level secure credential stores with automatic cache expiration.
 - Transcription history is encrypted with AES-256-GCM.
 - No data is stored on external servers controlled by KoeKey.
-- No security system is 100% secure. We take reasonable measures to protect your data, but cannot guarantee absolute security.
+- KoeKey employs the above measures, in line with current security standards, to protect your data. Please note that no software can guarantee absolute security.
 
 ## Third-Party Services
 
