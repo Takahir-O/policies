@@ -119,4 +119,4 @@ KoeKey は 13 歳未満のお子様を対象としていません。お子様の
 
 ## お問い合わせ
 
-本ポリシーについてご質問がある場合は、[https://github.com/Takahir-O/koekey/issues](https://github.com/Takahir-O/koekey/issues) で Issue を作成してください。
+本製品についてご質問がある場合は、[お問い合わせフォーム](https://forms.gle/oPqLindmrnVmocRt5)からご連絡ください。

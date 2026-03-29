@@ -119,4 +119,4 @@ We may update this policy when new features are added. Changes will be posted on
 
 ## Contact
 
-If you have questions about this policy, please open an issue at [https://github.com/Takahir-O/koekey/issues](https://github.com/Takahir-O/koekey/issues).
+If you have questions about this product, please contact us via our [inquiry form](https://forms.gle/oPqLindmrnVmocRt5).
